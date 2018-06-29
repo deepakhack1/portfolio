@@ -1,0 +1,76 @@
+#fh5co-hero .fh5co-overlay {
+    background-color: transparent !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+.hobby{
+    background-color: gray;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+.container
+{   display: flex;
+    flex-wrap: wrap;
+    max-width:100%;
+    margin: 0 auto;
+}
+.hi1
+{
+    width:100%;
+    background-color: rgb(31, 148, 150);
+}
+.hi2
+{
+    width:100%;
+    background-color: rgb(175, 238, 238);
+
+}
+.hi3
+{    width:100%;
+    background-color: cornflowerblue;
+
+}
+
+.deep
+{
+    font-size: xx-large;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+p:hover p1
+{
+    display: block;
+}
+p1
+{
+    display: none;
+}
+.img-fluid
+{
+    max-width: 50%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px){
+    .hi1
+    {
+
+        order: 2;
+    }
+    .hi2
+    {
+
+        order:1;
+    }
+    .hi3
+    {
+
+        order:3;
+    }
+
+}
